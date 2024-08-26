@@ -10,18 +10,10 @@ console.log(randomNumber1);
 let leftDice = document.querySelector(".img1");
 let rightDice = document.querySelector(".img2");
 
-let imageSources = [
-    `./images/dice1.png`,
-    `./images/dice2.png`,
-    `./images/dice3.png`,
-    `./images/dice4.png`,
-    `./images/dice5.png`,
-    `./images/dice6.png`,
-];
 
 // changing the images using the src (source) attribute
-leftDice.setAttribute(`src`, imageSources[randomNumber1 - 1]);
-rightDice.setAttribute(`src`, imageSources[randomNumber2 - 1]);
+leftDice.setAttribute(`src`, `./images/dice${randomNumber1}.png`);
+rightDice.setAttribute(`src`, `./images/dice${randomNumber2}.png`);
 
 // to change the h1 text to display which one won
 let output = document.querySelector(`h1`);
