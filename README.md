@@ -1,3 +1,3 @@
-# JavaScript-with-Angela-Yu
+# Dice Game
 
-## [Check it out](https://mark-eugene-barasu.github.io/JavaScript-with-Angela-Yu/)
+## [Check it out](https://mark-eugene-barasu.github.io/Dice-Game/)
