@@ -7,8 +7,8 @@ let randomNumber2 = Math.floor((Math.random() * 6) + 1);
 console.log(randomNumber1);
 
 // selecting the image from the HTML file respectively
-let leftDice = document.querySelector(".img1");
-let rightDice = document.querySelector(".img2");
+let leftDice = document.querySelectorAll("img")[0];
+let rightDice = document.querySelectorAll("img")[1];
 
 
 // changing the images using the src (source) attribute
